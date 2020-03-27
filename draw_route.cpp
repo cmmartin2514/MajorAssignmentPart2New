@@ -4,24 +4,6 @@
 extern shared_vars shared;
 
 void draw_route() {
-	shared.waypoints[0].lat = 5364188;
-	shared.waypoints[0].lon = -11348914;
-	shared.waypoints[1].lat = 5363838;
-	shared.waypoints[1].lon = -11349423;
-	shared.waypoints[2].lat = 5363757;
-	shared.waypoints[2].lon = -11349634;
-	shared.waypoints[3].lat = 5363635;
-	shared.waypoints[3].lon = -11350026;
-	shared.waypoints[4].lat = 5363389;
-	shared.waypoints[4].lon = -11350776;
-	shared.waypoints[5].lat = 5363374;
-	shared.waypoints[5].lon = -11350815;
-	shared.waypoints[6].lat = 5363356;
-	shared.waypoints[6].lon = -11350849;
-	shared.waypoints[7].lat = 5363327;
-	shared.waypoints[7].lon = -11350890;
-	shared.num_waypoints = 8;
-
 	// implement this!
 	if (shared.num_waypoints > 0 && shared.num_waypoints <= max_waypoints) {
 		// make sure num waypoints is in range, may not need this depending on other functions
